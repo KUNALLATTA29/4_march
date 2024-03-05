@@ -1,0 +1,361 @@
+answer 1.
+
+
+#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f", &a);
+    printf("%f\n", a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    printf("%d\n", b);
+    char c;
+    printf("enter the value of c");
+    scanf(" %c", &c);
+    printf("%c\n", c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    printf("%d\n", d);
+    float e;
+    printf("enter the value of e");
+    scanf("%f", &e);
+    printf("%f\n", e);
+    char f;
+    printf("enter the value of f");
+    scanf(" %c", &f);
+    printf("%c\n", f);
+   
+    return 0;
+}
+
+
+
+answer 2.  
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    int b;
+    printf("enter the value of b ");
+    scanf("%d",&b);
+    int c = a+b;
+    printf("%d", c);
+    
+    return 0;
+}
+
+answer 3.
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d\n", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d\n", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d\n", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d\n", &d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d\n", &e);
+    int f = a+b+c+d+e;
+    printf("%d",f);
+   
+    return 0;
+}
+
+
+answer 4.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c=a-b;
+    printf("%d", c);
+   
+    return 0;
+}
+
+
+answer 5.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c=a*b;
+    printf("%d", c);
+   
+    return 0;
+}
+
+
+answer 6.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c=a/b;
+    printf("%d", c);
+   
+    return 0;
+}
+
+answer 7.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    int c=a+b-c*d;
+    printf("%d", c);
+   
+    return 0;
+}
+
+
+answer 8.
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    int c=a*b+(c+d);
+    printf("%d", c);
+   
+    return 0;
+}
+
+
+answer 9.
+
+
+#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d", &e);
+    float f=a*b-c+d*e;
+    printf("%f", f);
+   
+    return 0;
+}
+
+
+answer 10.
+
+
+
+#include <stdio.h>
+
+int main()
+{
+    float a;
+    printf("enter the value of a");
+    scanf("%f", &a);
+    float b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    int e;
+    printf("enter the value of e");
+    scanf("%d", &e);
+    float f;
+    printf("enter the value of f");
+    scanf("%f", &f);
+    float g=a+(b*c)/d-e*f;
+    printf("%f", g);
+   
+    return 0;
+}
+
+
+answer 11.
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    printf("enter the value of a");
+    scanf("%d", &a);
+    int b;
+    printf("enter the value of b");
+    scanf("%d", &b);
+    int c;
+    printf("enter the value of c");
+    scanf("%d", &c);
+    int d;
+    printf("enter the value of d");
+    scanf("%d", &d);
+    float e;
+    printf("enter the value of e");
+    scanf("%f", &e);
+    float e=a+b-c+d*e;
+    printf("%f", e);
+   
+    return 0;
+}
+
+
+answer 12.
+
+swap values without third variable
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=67;
+   int b=98;
+   printf("%d", a);
+   printf("%d", a);
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   printf("swap value of a is%d\n", a);
+   printf("swap value of b is%d\n", b);
+   
+    return 0;
+}
+
+
+answer 13.
+
+swap values with third variable
+
+
+#include <stdio.h>
+
+int main()
+{
+   int a=67;
+   int b=98;
+   printf("%d", a);
+   printf("%d", a);
+   int c=a;
+   a=b;
+   b=c;
+   printf("swap value of a is%d\n", a);
+   printf("swap value of b is%d\n", b);
+   
+    return 0;
+}
+
+
+answer 14.
+
+To compile C code, you need to use a compiler. The most common compiler for C is GCC.
+
+answer 15.
+
+Object code is the output of a compiler, which is a program that translates source code into a form that can be executed by a computer's processor. In C, object code is typically in the form of a file with a .o extension.
+
+answer 16.
+
+A statement is a command that tells the computer to perform a specific action. A computer program is made up of a series of statements. In C, there are three main categories of statements:
+1. control sta
+2. jump sta
+3. looping sta
+
+answer17.
+
+Comments are pieces of text in a program that are ignored by the compiler. They are used to explain the code, to make it more readable, and to document the program. Comments can be single-line or multi-line.
+
+1. high level
+High-level languages are similar to human languages and use grammar rules to create instructions.
+
+2. mid level
+Middle-level languages use symbols like letters, digits, and special characters to create instructions. 
+
+3.low level
+Low-level languages are designed to be closer to machine language and hardware. They are not portable and are not widely used.
+
+
+answer 18.
+
+
+Interpreter translates just one statement of the program at a time into machine code. Compiler scans the entire program and translates the whole of it into machine code at once. An interpreter takes very less time to analyze the source code. However, the overall time to execute the process is much slower.
